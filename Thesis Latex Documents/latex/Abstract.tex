@@ -1,0 +1,20 @@
+\documentclass[thesis.tex]{subfiles}
+\begin{document}
+
+\chapter*{Abstract}
+
+Modern economy relies heavily on steady production of energy. Traditional energy sources mostly include non-renewable ones like coal, natural gas and other fossil or nuclear fuel-based power plants. They are highly reliable and predictable in nature as the output can be moderated according to the consumers' requirements. However, they are increasingly undesirable due to their adverse environmental impacts. 
+
+Germany's Renewable Energy Sources Act or EEG (German: \textit{Erneuerbare-Energien-Gesetz}) is a series of legislations introduced in 2000 aimed at encouraging development of renewable energy sources (RES) such as wind and solar energy. As of 2016, RES constitute nearly 34\% of net electricity production and the target is to meet over 50\% of the production by 2030. The inclination towards RES is due to their non-existent or low toxic emissions. However, inclusion of RES into the national power grid for energy production adds to the grid's volatility as such sources' outputs cannot be controlled as easily and it depends on the location's meteorological conditions at any given time. This increased dynamicity of the grid mandates a higher monitoring resolution for safe operation.
+
+%State Estimation (SE) in power grids is defined as the process of extracting information from large amounts of unreliable raw measurement data generated from the measuring devices and sensors distributed throughout the grid. This acquired information is useful for the rest of the energy management systems(EMS). SE essentially acts as the first filter for all other EMS components and is vital in monitoring voltage stability within the grid. 
+State Estimation (SE) in power grids acts as the first filter for extracting information from noisy measurement data obtained from sensors and measuring devices placed throughout the grid. This information is necessary for the rest of the energy management system (EMS) components. Considering Germany's ambitious renewable energy targets and the state of existing RES infrastructure's dynamic nature, SE is increasingly indispensable to readily respond to grid voltage fluctuations. However, obtaining a higher monitoring resolution through SE over a vast nationwide power grid is constrained by the required large computational power and long execution times.
+
+The thesis addresses this computational bottleneck through 2 approaches: decentralization of SE and GPGPU. General Purpose Computation on Graphics Processing Unit (GPGPU) refers to the use of a graphics processor for calculations beyond its original scope of tasks. GPGPU are ‘massively parallel’ in nature which enables much significantly higher computational throughput when the parallelization can be exploited by an application. GPGPU are a fit to the problem of SE due to the presence of various large matrix-matrix and matrix-vector operations that can be efficiently implemented with higher throughput on a GPGPU compared to the CPU implementation. Through porting the existing SE algorithm to the GPGPUs to exploit its high degree of parallelism, a higher monitoring resolution can be obtained. 
+
+Similarly, through decentralization of SE, the complete power grid is split into smaller sectors and independent parallel SE computations can be run for the individual sectors. This split is helpful in reducing the computational complexity. The obtained results can then be merged to obtain the final global information.
+
+%In this master thesis, the possibility of a performance gain and accuracy analysis of the results of decentralized SE using GPGPUs is explored.
+
+
+\end{document}

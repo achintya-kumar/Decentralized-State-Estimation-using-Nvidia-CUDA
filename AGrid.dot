@@ -1,0 +1,1671 @@
+graph G {
+0 [label="B1", color="gray"]
+;
+1 [label="B2", color="gray"]
+;
+2 [label="B3", color="red"]
+;
+3 [label="B4", color="gray"]
+;
+4 [label="B5", color="red"]
+;
+5 [label="B6", color="gray"]
+;
+6 [label="B7", color="gray"]
+;
+7 [label="B8", color="gray"]
+;
+8 [label="B9", color="red"]
+;
+9 [label="B10", color="gray"]
+;
+10 [label="B11", color="gray"]
+;
+11 [label="B12", color="red"]
+;
+12 [label="B13", color="gray"]
+;
+13 [label="B14", color="gray"]
+;
+14 [label="B15", color="red"]
+;
+15 [label="B16", color="gray"]
+;
+16 [label="B17", color="red"]
+;
+17 [label="B18", color="gray"]
+;
+18 [label="B19", color="gray"]
+;
+19 [label="B20", color="gray"]
+;
+20 [label="B21", color="red"]
+;
+21 [label="B22", color="gray"]
+;
+22 [label="B23", color="gray"]
+;
+23 [label="B24", color="gray"]
+;
+24 [label="B25", color="red"]
+;
+25 [label="B26", color="gray"]
+;
+26 [label="B27", color="gray"]
+;
+27 [label="B28", color="red"]
+;
+28 [label="B29", color="gray"]
+;
+29 [label="B30", color="gray"]
+;
+30 [label="B31", color="gray"]
+;
+31 [label="B32", color="gray"]
+;
+32 [label="B33", color="gray"]
+;
+33 [label="B34", color="red"]
+;
+34 [label="B35", color="gray"]
+;
+35 [label="B36", color="gray"]
+;
+36 [label="B37", color="red"]
+;
+37 [label="B38", color="gray"]
+;
+38 [label="B39", color="gray"]
+;
+39 [label="B40", color="red"]
+;
+40 [label="B41", color="gray"]
+;
+41 [label="B42", color="gray"]
+;
+42 [label="B43", color="gray"]
+;
+43 [label="B44", color="gray"]
+;
+44 [label="B45", color="red"]
+;
+45 [label="B46", color="gray"]
+;
+46 [label="B47", color="gray"]
+;
+47 [label="B48", color="gray"]
+;
+48 [label="B49", color="red"]
+;
+49 [label="B50", color="gray"]
+;
+50 [label="B51", color="gray"]
+;
+51 [label="B52", color="gray"]
+;
+52 [label="B53", color="red"]
+;
+53 [label="B54", color="gray"]
+;
+54 [label="B55", color="gray"]
+;
+55 [label="B56", color="red"]
+;
+56 [label="B57", color="gray"]
+;
+57 [label="B58", color="gray"]
+;
+58 [label="B59", color="gray"]
+;
+59 [label="B60", color="gray"]
+;
+60 [label="B61", color="gray"]
+;
+61 [label="B62", color="red"]
+;
+62 [label="B63", color="gray"]
+;
+63 [label="B64", color="red"]
+;
+64 [label="B65", color="gray"]
+;
+65 [label="B66", color="gray"]
+;
+66 [label="B67", color="gray"]
+;
+67 [label="B68", color="red"]
+;
+68 [label="B69", color="gray"]
+;
+69 [label="B70", color="red"]
+;
+70 [label="B71", color="red"]
+;
+71 [label="B72", color="gray"]
+;
+72 [label="B73", color="gray"]
+;
+73 [label="B74", color="gray"]
+;
+74 [label="B75", color="red"]
+;
+75 [label="B76", color="gray"]
+;
+76 [label="B77", color="red"]
+;
+77 [label="B78", color="gray"]
+;
+78 [label="B79", color="gray"]
+;
+79 [label="B80", color="red"]
+;
+80 [label="B81", color="gray"]
+;
+81 [label="B82", color="gray"]
+;
+82 [label="B83", color="gray"]
+;
+83 [label="B84", color="gray"]
+;
+84 [label="B85", color="red"]
+;
+85 [label="B86", color="red"]
+;
+86 [label="B87", color="gray"]
+;
+87 [label="B88", color="gray"]
+;
+88 [label="B89", color="gray"]
+;
+89 [label="B90", color="gray"]
+;
+90 [label="B91", color="red"]
+;
+91 [label="B92", color="gray"]
+;
+92 [label="B93", color="gray"]
+;
+93 [label="B94", color="red"]
+;
+94 [label="B95", color="gray"]
+;
+95 [label="B96", color="gray"]
+;
+96 [label="B97", color="gray"]
+;
+97 [label="B98", color="gray"]
+;
+98 [label="B99", color="gray"]
+;
+99 [label="B100", color="gray"]
+;
+100 [label="B101", color="red"]
+;
+101 [label="B102", color="gray"]
+;
+102 [label="B103", color="gray"]
+;
+103 [label="B104", color="gray"]
+;
+104 [label="B105", color="red"]
+;
+105 [label="B106", color="gray"]
+;
+106 [label="B107", color="gray"]
+;
+107 [label="B108", color="gray"]
+;
+108 [label="B109", color="gray"]
+;
+109 [label="B110", color="red"]
+;
+110 [label="B111", color="gray"]
+;
+111 [label="B112", color="gray"]
+;
+112 [label="B113", color="gray"]
+;
+113 [label="B114", color="red"]
+;
+114 [label="B115", color="gray"]
+;
+115 [label="B116", color="gray"]
+;
+116 [label="B117", color="gray"]
+;
+117 [label="B118", color="gray"]
+;
+118 [label="B119", color="gray"]
+;
+119 [label="B120", color="gray"]
+;
+120 [label="B121", color="gray"]
+;
+121 [label="B122", color="gray"]
+;
+122 [label="B123", color="gray"]
+;
+123 [label="B124", color="gray"]
+;
+124 [label="B125", color="gray"]
+;
+125 [label="B126", color="gray"]
+;
+126 [label="B127", color="gray"]
+;
+127 [label="B128", color="gray"]
+;
+128 [label="B129", color="gray"]
+;
+129 [label="B130", color="gray"]
+;
+130 [label="B131", color="gray"]
+;
+131 [label="B132", color="gray"]
+;
+132 [label="B133", color="gray"]
+;
+133 [label="B134", color="gray"]
+;
+134 [label="B135", color="gray"]
+;
+135 [label="B136", color="gray"]
+;
+136 [label="B137", color="gray"]
+;
+137 [label="B138", color="gray"]
+;
+138 [label="B139", color="gray"]
+;
+139 [label="B140", color="gray"]
+;
+140 [label="B141", color="gray"]
+;
+141 [label="B142", color="gray"]
+;
+142 [label="B143", color="gray"]
+;
+143 [label="B144", color="gray"]
+;
+144 [label="B145", color="gray"]
+;
+145 [label="B146", color="gray"]
+;
+146 [label="B147", color="gray"]
+;
+147 [label="B148", color="gray"]
+;
+148 [label="B149", color="gray"]
+;
+149 [label="B150", color="gray"]
+;
+150 [label="B151", color="gray"]
+;
+151 [label="B152", color="gray"]
+;
+152 [label="B153", color="gray"]
+;
+153 [label="B154", color="gray"]
+;
+154 [label="B155", color="gray"]
+;
+155 [label="B156", color="gray"]
+;
+156 [label="B157", color="gray"]
+;
+157 [label="B158", color="gray"]
+;
+158 [label="B159", color="gray"]
+;
+159 [label="B160", color="gray"]
+;
+160 [label="B161", color="gray"]
+;
+161 [label="B162", color="gray"]
+;
+162 [label="B163", color="gray"]
+;
+163 [label="B164", color="gray"]
+;
+164 [label="B165", color="gray"]
+;
+165 [label="B166", color="gray"]
+;
+166 [label="B167", color="gray"]
+;
+167 [label="B168", color="gray"]
+;
+168 [label="B169", color="gray"]
+;
+169 [label="B170", color="gray"]
+;
+170 [label="B171", color="gray"]
+;
+171 [label="B172", color="gray"]
+;
+172 [label="B173", color="gray"]
+;
+173 [label="B174", color="gray"]
+;
+174 [label="B175", color="gray"]
+;
+175 [label="B176", color="gray"]
+;
+176 [label="B177", color="gray"]
+;
+177 [label="B178", color="gray"]
+;
+178 [label="B179", color="gray"]
+;
+179 [label="B180", color="gray"]
+;
+180 [label="B181", color="gray"]
+;
+181 [label="B182", color="gray"]
+;
+182 [label="B183", color="gray"]
+;
+183 [label="B184", color="gray"]
+;
+184 [label="B185", color="gray"]
+;
+185 [label="B186", color="gray"]
+;
+186 [label="B187", color="gray"]
+;
+187 [label="B188", color="gray"]
+;
+188 [label="B189", color="gray"]
+;
+189 [label="B190", color="gray"]
+;
+190 [label="B191", color="gray"]
+;
+191 [label="B192", color="gray"]
+;
+192 [label="B193", color="gray"]
+;
+193 [label="B194", color="gray"]
+;
+194 [label="B195", color="gray"]
+;
+195 [label="B196", color="gray"]
+;
+196 [label="B197", color="gray"]
+;
+197 [label="B198", color="gray"]
+;
+198 [label="B199", color="gray"]
+;
+199 [label="B200", color="gray"]
+;
+200 [label="B201", color="gray"]
+;
+201 [label="B202", color="gray"]
+;
+202 [label="B203", color="gray"]
+;
+203 [label="B204", color="gray"]
+;
+204 [label="B205", color="gray"]
+;
+205 [label="B206", color="gray"]
+;
+206 [label="B207", color="gray"]
+;
+207 [label="B208", color="gray"]
+;
+208 [label="B209", color="gray"]
+;
+209 [label="B210", color="gray"]
+;
+210 [label="B211", color="gray"]
+;
+211 [label="B212", color="gray"]
+;
+212 [label="B213", color="gray"]
+;
+213 [label="B214", color="gray"]
+;
+214 [label="B215", color="gray"]
+;
+215 [label="B216", color="gray"]
+;
+216 [label="B217", color="gray"]
+;
+217 [label="B218", color="gray"]
+;
+218 [label="B219", color="gray"]
+;
+219 [label="B220", color="gray"]
+;
+220 [label="B221", color="gray"]
+;
+221 [label="B222", color="gray"]
+;
+222 [label="B223", color="gray"]
+;
+223 [label="B224", color="gray"]
+;
+224 [label="B225", color="gray"]
+;
+225 [label="B226", color="gray"]
+;
+226 [label="B227", color="gray"]
+;
+227 [label="B228", color="gray"]
+;
+228 [label="B229", color="gray"]
+;
+229 [label="B230", color="gray"]
+;
+230 [label="B231", color="gray"]
+;
+231 [label="B232", color="gray"]
+;
+232 [label="B233", color="gray"]
+;
+233 [label="B234", color="gray"]
+;
+234 [label="B235", color="gray"]
+;
+235 [label="B236", color="gray"]
+;
+236 [label="B237", color="gray"]
+;
+237 [label="B238", color="gray"]
+;
+238 [label="B239", color="gray"]
+;
+239 [label="B240", color="gray"]
+;
+240 [label="B241", color="gray"]
+;
+241 [label="B242", color="gray"]
+;
+242 [label="B243", color="gray"]
+;
+243 [label="B244", color="gray"]
+;
+244 [label="B245", color="gray"]
+;
+245 [label="B246", color="gray"]
+;
+246 [label="B247", color="gray"]
+;
+247 [label="B248", color="gray"]
+;
+248 [label="B249", color="gray"]
+;
+249 [label="B250", color="gray"]
+;
+250 [label="B251", color="gray"]
+;
+251 [label="B252", color="gray"]
+;
+252 [label="B253", color="gray"]
+;
+253 [label="B254", color="gray"]
+;
+254 [label="B255", color="gray"]
+;
+255 [label="B256", color="gray"]
+;
+256 [label="B257", color="gray"]
+;
+257 [label="B258", color="gray"]
+;
+258 [label="B259", color="gray"]
+;
+259 [label="B260", color="gray"]
+;
+260 [label="B261", color="gray"]
+;
+261 [label="B262", color="gray"]
+;
+262 [label="B263", color="gray"]
+;
+263 [label="B264", color="gray"]
+;
+264 [label="B265", color="gray"]
+;
+265 [label="B266", color="gray"]
+;
+266 [label="B267", color="gray"]
+;
+267 [label="B268", color="gray"]
+;
+268 [label="B269", color="gray"]
+;
+269 [label="B270", color="gray"]
+;
+270 [label="B271", color="gray"]
+;
+271 [label="B272", color="gray"]
+;
+272 [label="B273", color="gray"]
+;
+273 [label="B274", color="gray"]
+;
+274 [label="B275", color="gray"]
+;
+275 [label="B276", color="gray"]
+;
+276 [label="B277", color="gray"]
+;
+277 [label="B278", color="gray"]
+;
+278 [label="B279", color="gray"]
+;
+279 [label="B280", color="gray"]
+;
+280 [label="B281", color="gray"]
+;
+281 [label="B282", color="gray"]
+;
+282 [label="B283", color="gray"]
+;
+283 [label="B284", color="gray"]
+;
+284 [label="B285", color="gray"]
+;
+285 [label="B286", color="gray"]
+;
+286 [label="B287", color="gray"]
+;
+287 [label="B288", color="gray"]
+;
+288 [label="B289", color="gray"]
+;
+289 [label="B290", color="gray"]
+;
+290 [label="B291", color="gray"]
+;
+291 [label="B292", color="gray"]
+;
+292 [label="B293", color="gray"]
+;
+293 [label="B294", color="gray"]
+;
+294 [label="B295", color="gray"]
+;
+295 [label="B296", color="gray"]
+;
+296 [label="B297", color="gray"]
+;
+297 [label="B298", color="gray"]
+;
+298 [label="B299", color="gray"]
+;
+299 [label="B300", color="gray"]
+;
+300 [label="B301", color="gray"]
+;
+301 [label="B302", color="gray"]
+;
+302 [label="B303", color="gray"]
+;
+303 [label="B304", color="gray"]
+;
+304 [label="B305", color="gray"]
+;
+305 [label="B306", color="gray"]
+;
+306 [label="B307", color="gray"]
+;
+307 [label="B308", color="gray"]
+;
+308 [label="B309", color="gray"]
+;
+309 [label="B310", color="gray"]
+;
+310 [label="B311", color="gray"]
+;
+311 [label="B312", color="gray"]
+;
+312 [label="B313", color="gray"]
+;
+313 [label="B314", color="gray"]
+;
+314 [label="B315", color="gray"]
+;
+315 [label="B316", color="gray"]
+;
+316 [label="B317", color="gray"]
+;
+317 [label="B318", color="gray"]
+;
+318 [label="B319", color="gray"]
+;
+319 [label="B320", color="gray"]
+;
+320 [label="B321", color="gray"]
+;
+321 [label="B322", color="gray"]
+;
+322 [label="B323", color="gray"]
+;
+323 [label="B324", color="gray"]
+;
+324 [label="B325", color="gray"]
+;
+325 [label="B326", color="gray"]
+;
+326 [label="B327", color="gray"]
+;
+327 [label="B328", color="gray"]
+;
+328 [label="B329", color="gray"]
+;
+329 [label="B330", color="gray"]
+;
+330 [label="B331", color="gray"]
+;
+331 [label="B332", color="gray"]
+;
+332 [label="B333", color="gray"]
+;
+333 [label="B334", color="gray"]
+;
+334 [label="B335", color="gray"]
+;
+335 [label="B336", color="gray"]
+;
+336 [label="B337", color="gray"]
+;
+337 [label="B338", color="gray"]
+;
+338 [label="B339", color="gray"]
+;
+339 [label="B340", color="gray"]
+;
+340 [label="B341", color="gray"]
+;
+341 [label="B342", color="gray"]
+;
+342 [label="B343", color="gray"]
+;
+343 [label="B344", color="gray"]
+;
+344 [label="B345", color="gray"]
+;
+345 [label="B346", color="gray"]
+;
+346 [label="B347", color="gray"]
+;
+347 [label="B348", color="gray"]
+;
+348 [label="B349", color="gray"]
+;
+349 [label="B350", color="gray"]
+;
+350 [label="B351", color="gray"]
+;
+351 [label="B352", color="gray"]
+;
+352 [label="B353", color="gray"]
+;
+353 [label="B354", color="gray"]
+;
+354 [label="B355", color="gray"]
+;
+355 [label="B356", color="gray"]
+;
+356 [label="B357", color="gray"]
+;
+357 [label="B358", color="gray"]
+;
+358 [label="B359", color="gray"]
+;
+359 [label="B360", color="gray"]
+;
+360 [label="B361", color="gray"]
+;
+361 [label="B362", color="gray"]
+;
+362 [label="B363", color="gray"]
+;
+363 [label="B364", color="gray"]
+;
+364 [label="B365", color="gray"]
+;
+365 [label="B366", color="gray"]
+;
+366 [label="B367", color="gray"]
+;
+367 [label="B368", color="gray"]
+;
+368 [label="B369", color="gray"]
+;
+369 [label="B370", color="gray"]
+;
+370 [label="B371", color="gray"]
+;
+371 [label="B372", color="gray"]
+;
+372 [label="B373", color="gray"]
+;
+373 [label="B374", color="gray"]
+;
+374 [label="B375", color="gray"]
+;
+375 [label="B376", color="gray"]
+;
+376 [label="B377", color="gray"]
+;
+377 [label="B378", color="gray"]
+;
+378 [label="B379", color="gray"]
+;
+379 [label="B380", color="gray"]
+;
+380 [label="B381", color="gray"]
+;
+381 [label="B382", color="gray"]
+;
+382 [label="B383", color="gray"]
+;
+383 [label="B384", color="gray"]
+;
+384 [label="B385", color="gray"]
+;
+385 [label="B386", color="gray"]
+;
+386 [label="B387", color="gray"]
+;
+387 [label="B388", color="gray"]
+;
+388 [label="B389", color="gray"]
+;
+389 [label="B390", color="gray"]
+;
+390 [label="B391", color="gray"]
+;
+391 [label="B392", color="gray"]
+;
+392 [label="B393", color="gray"]
+;
+393 [label="B394", color="gray"]
+;
+394 [label="B395", color="gray"]
+;
+395 [label="B396", color="gray"]
+;
+396 [label="B397", color="gray"]
+;
+397 [label="B398", color="gray"]
+;
+398 [label="B399", color="gray"]
+;
+399 [label="B400", color="gray"]
+;
+400 [label="B401", color="gray"]
+;
+401 [label="B402", color="gray"]
+;
+402 [label="B403", color="gray"]
+;
+403 [label="B404", color="gray"]
+;
+404 [label="B405", color="gray"]
+;
+405 [label="B406", color="gray"]
+;
+406 [label="B407", color="gray"]
+;
+407 [label="B408", color="gray"]
+;
+408 [label="B409", color="gray"]
+;
+409 [label="B410", color="gray"]
+;
+410 [label="B411", color="gray"]
+;
+411 [label="B412", color="gray"]
+;
+412 [label="B413", color="gray"]
+;
+413 [label="B414", color="gray"]
+;
+414 [label="B415", color="gray"]
+;
+415 [label="B416", color="gray"]
+;
+416 [label="B417", color="gray"]
+;
+417 [label="B418", color="gray"]
+;
+418 [label="B419", color="gray"]
+;
+419 [label="B420", color="gray"]
+;
+420 [label="B421", color="gray"]
+;
+421 [label="B422", color="gray"]
+;
+422 [label="B423", color="gray"]
+;
+423 [label="B424", color="gray"]
+;
+424 [label="B425", color="gray"]
+;
+425 [label="B426", color="gray"]
+;
+426 [label="B427", color="gray"]
+;
+427 [label="B428", color="gray"]
+;
+428 [label="B429", color="gray"]
+;
+429 [label="B430", color="gray"]
+;
+430 [label="B431", color="gray"]
+;
+431 [label="B432", color="gray"]
+;
+432 [label="B433", color="gray"]
+;
+433 [label="B434", color="gray"]
+;
+434 [label="B435", color="gray"]
+;
+435 [label="B436", color="gray"]
+;
+436 [label="B437", color="gray"]
+;
+437 [label="B438", color="gray"]
+;
+438 [label="B439", color="gray"]
+;
+439 [label="B440", color="gray"]
+;
+440 [label="B441", color="gray"]
+;
+441 [label="B442", color="gray"]
+;
+442 [label="B443", color="gray"]
+;
+443 [label="B444", color="gray"]
+;
+444 [label="B445", color="gray"]
+;
+445 [label="B446", color="gray"]
+;
+446 [label="B447", color="gray"]
+;
+447 [label="B448", color="gray"]
+;
+448 [label="B449", color="gray"]
+;
+449 [label="B450", color="gray"]
+;
+450 [label="B451", color="gray"]
+;
+451 [label="B452", color="gray"]
+;
+452 [label="B453", color="gray"]
+;
+453 [label="B454", color="gray"]
+;
+454 [label="B455", color="gray"]
+;
+455 [label="B456", color="gray"]
+;
+456 [label="B457", color="gray"]
+;
+457 [label="B458", color="gray"]
+;
+458 [label="B459", color="gray"]
+;
+459 [label="B460", color="gray"]
+;
+460 [label="B461", color="gray"]
+;
+461 [label="B462", color="gray"]
+;
+462 [label="B463", color="gray"]
+;
+463 [label="B464", color="gray"]
+;
+464 [label="B465", color="gray"]
+;
+465 [label="B466", color="gray"]
+;
+466 [label="B467", color="gray"]
+;
+467 [label="B468", color="gray"]
+;
+468 [label="B469", color="gray"]
+;
+469 [label="B470", color="gray"]
+;
+470 [label="B471", color="gray"]
+;
+471 [label="B472", color="gray"]
+;
+1--0 ;
+2--0 ;
+4--2 ;
+4--3 ;
+5--4 ;
+6--5 ;
+7--4 ;
+8--7 ;
+9--8 ;
+10--3 ;
+10--4 ;
+11--1 ;
+11--2 ;
+11--6 ;
+11--10 ;
+12--10 ;
+13--11 ;
+14--12 ;
+14--13 ;
+15--11 ;
+16--14 ;
+16--15 ;
+17--16 ;
+18--14 ;
+18--17 ;
+19--18 ;
+20--19 ;
+21--20 ;
+22--21 ;
+23--22 ;
+24--22 ;
+25--24 ;
+26--24 ;
+27--26 ;
+28--27 ;
+29--7 ;
+29--16 ;
+29--25 ;
+30--16 ;
+30--28 ;
+31--22 ;
+31--26 ;
+31--30 ;
+32--14 ;
+33--18 ;
+35--33 ;
+35--34 ;
+36--32 ;
+36--33 ;
+36--34 ;
+37--29 ;
+37--36 ;
+38--36 ;
+39--36 ;
+39--38 ;
+40--39 ;
+41--39 ;
+41--40 ;
+42--33 ;
+43--42 ;
+44--43 ;
+45--44 ;
+46--45 ;
+47--45 ;
+48--41 ;
+48--44 ;
+48--46 ;
+48--47 ;
+49--48 ;
+50--48 ;
+51--50 ;
+52--51 ;
+53--48 ;
+53--52 ;
+54--53 ;
+55--53 ;
+55--54 ;
+56--49 ;
+56--55 ;
+57--50 ;
+57--55 ;
+58--53 ;
+58--54 ;
+58--55 ;
+59--58 ;
+60--58 ;
+60--59 ;
+61--59 ;
+61--60 ;
+62--58 ;
+63--60 ;
+63--62 ;
+64--37 ;
+64--63 ;
+65--48 ;
+65--61 ;
+65--64 ;
+66--61 ;
+66--65 ;
+67--64 ;
+68--46 ;
+68--48 ;
+68--67 ;
+69--23 ;
+69--68 ;
+70--69 ;
+71--23 ;
+71--70 ;
+72--70 ;
+73--69 ;
+74--68 ;
+74--69 ;
+74--73 ;
+76--68 ;
+76--74 ;
+76--75 ;
+77--76 ;
+78--77 ;
+79--76 ;
+79--78 ;
+80--67 ;
+80--79 ;
+81--76 ;
+82--81 ;
+83--82 ;
+84--82 ;
+84--83 ;
+85--84 ;
+86--85 ;
+87--84 ;
+88--84 ;
+88--87 ;
+89--88 ;
+90--89 ;
+91--88 ;
+91--90 ;
+92--91 ;
+93--91 ;
+93--92 ;
+94--93 ;
+95--79 ;
+95--81 ;
+95--93 ;
+95--94 ;
+96--79 ;
+96--95 ;
+97--79 ;
+98--79 ;
+99--91 ;
+99--93 ;
+99--97 ;
+99--98 ;
+100--99 ;
+101--91 ;
+101--100 ;
+102--99 ;
+103--99 ;
+103--102 ;
+104--102 ;
+104--103 ;
+105--99 ;
+105--104 ;
+106--104 ;
+106--105 ;
+107--104 ;
+108--107 ;
+109--102 ;
+109--108 ;
+110--109 ;
+111--109 ;
+112--16 ;
+112--31 ;
+113--31 ;
+114--26 ;
+114--113 ;
+115--67 ;
+116--11 ;
+117--74 ;
+117--75 ;
+118--117 ;
+119--118 ;
+120--118 ;
+122--120 ;
+122--121 ;
+123--122 ;
+124--123 ;
+125--122 ;
+126--125 ;
+127--126 ;
+128--121 ;
+128--122 ;
+129--29 ;
+129--119 ;
+129--120 ;
+129--124 ;
+129--128 ;
+130--128 ;
+131--129 ;
+132--130 ;
+132--131 ;
+133--129 ;
+134--132 ;
+134--133 ;
+135--134 ;
+136--132 ;
+136--135 ;
+137--136 ;
+138--137 ;
+139--138 ;
+140--139 ;
+141--140 ;
+142--140 ;
+143--142 ;
+144--142 ;
+145--144 ;
+146--145 ;
+147--125 ;
+147--134 ;
+147--143 ;
+148--134 ;
+148--146 ;
+149--140 ;
+149--144 ;
+149--148 ;
+150--132 ;
+151--136 ;
+153--151 ;
+153--152 ;
+154--150 ;
+154--151 ;
+154--152 ;
+155--147 ;
+155--154 ;
+156--154 ;
+157--154 ;
+157--156 ;
+158--157 ;
+159--157 ;
+159--158 ;
+160--151 ;
+161--160 ;
+162--161 ;
+163--162 ;
+164--163 ;
+165--163 ;
+166--159 ;
+166--162 ;
+166--164 ;
+166--165 ;
+167--166 ;
+168--166 ;
+169--168 ;
+170--169 ;
+171--166 ;
+171--170 ;
+172--171 ;
+173--171 ;
+173--172 ;
+174--167 ;
+174--173 ;
+175--168 ;
+175--173 ;
+176--171 ;
+176--172 ;
+176--173 ;
+177--176 ;
+178--176 ;
+178--177 ;
+179--59 ;
+179--177 ;
+179--178 ;
+180--176 ;
+181--178 ;
+181--180 ;
+182--155 ;
+182--181 ;
+183--166 ;
+183--179 ;
+183--182 ;
+184--179 ;
+184--183 ;
+185--182 ;
+186--164 ;
+186--166 ;
+186--185 ;
+187--141 ;
+187--186 ;
+188--187 ;
+189--141 ;
+189--188 ;
+190--188 ;
+191--187 ;
+192--186 ;
+192--187 ;
+192--191 ;
+194--186 ;
+194--192 ;
+194--193 ;
+195--194 ;
+196--195 ;
+197--194 ;
+197--196 ;
+198--185 ;
+198--197 ;
+199--194 ;
+200--199 ;
+201--200 ;
+202--200 ;
+202--201 ;
+203--202 ;
+204--203 ;
+205--202 ;
+206--202 ;
+206--205 ;
+207--206 ;
+208--207 ;
+209--206 ;
+209--208 ;
+210--209 ;
+211--209 ;
+211--210 ;
+212--211 ;
+213--197 ;
+213--199 ;
+213--211 ;
+213--212 ;
+214--197 ;
+214--213 ;
+215--197 ;
+216--197 ;
+217--209 ;
+217--211 ;
+217--215 ;
+217--216 ;
+218--217 ;
+219--209 ;
+219--218 ;
+220--217 ;
+221--217 ;
+221--220 ;
+222--220 ;
+222--221 ;
+223--217 ;
+223--222 ;
+224--222 ;
+224--223 ;
+225--222 ;
+226--225 ;
+227--220 ;
+227--226 ;
+228--227 ;
+229--227 ;
+230--134 ;
+230--149 ;
+231--149 ;
+232--144 ;
+232--231 ;
+233--185 ;
+234--129 ;
+235--192 ;
+235--193 ;
+236--235 ;
+237--236 ;
+238--236 ;
+240--238 ;
+240--239 ;
+241--240 ;
+242--241 ;
+243--240 ;
+244--243 ;
+245--244 ;
+246--239 ;
+246--240 ;
+247--237 ;
+247--238 ;
+247--242 ;
+247--246 ;
+248--246 ;
+249--247 ;
+250--248 ;
+250--249 ;
+251--247 ;
+252--250 ;
+252--251 ;
+253--252 ;
+254--250 ;
+254--253 ;
+255--254 ;
+256--255 ;
+257--256 ;
+258--257 ;
+259--258 ;
+260--258 ;
+261--260 ;
+262--260 ;
+263--262 ;
+264--263 ;
+265--243 ;
+265--252 ;
+265--261 ;
+266--252 ;
+266--264 ;
+267--177 ;
+267--258 ;
+267--262 ;
+267--266 ;
+268--250 ;
+269--254 ;
+271--269 ;
+271--270 ;
+272--268 ;
+272--269 ;
+272--270 ;
+273--265 ;
+273--272 ;
+274--272 ;
+275--272 ;
+275--274 ;
+276--275 ;
+277--275 ;
+277--276 ;
+278--269 ;
+279--278 ;
+280--279 ;
+281--280 ;
+282--281 ;
+283--281 ;
+284--277 ;
+284--280 ;
+284--282 ;
+284--283 ;
+285--284 ;
+286--284 ;
+287--286 ;
+288--287 ;
+289--284 ;
+289--288 ;
+290--289 ;
+291--289 ;
+291--290 ;
+292--285 ;
+292--291 ;
+293--286 ;
+293--291 ;
+294--289 ;
+294--290 ;
+294--291 ;
+295--294 ;
+296--294 ;
+296--295 ;
+297--207 ;
+297--295 ;
+297--296 ;
+298--294 ;
+299--296 ;
+299--298 ;
+300--273 ;
+300--299 ;
+301--284 ;
+301--297 ;
+301--300 ;
+302--297 ;
+302--301 ;
+303--300 ;
+304--282 ;
+304--284 ;
+304--303 ;
+305--259 ;
+305--304 ;
+306--305 ;
+307--259 ;
+307--306 ;
+308--306 ;
+309--305 ;
+310--304 ;
+310--305 ;
+310--309 ;
+312--304 ;
+312--310 ;
+312--311 ;
+313--312 ;
+314--313 ;
+315--312 ;
+315--314 ;
+316--303 ;
+316--315 ;
+317--312 ;
+318--317 ;
+319--318 ;
+320--318 ;
+320--319 ;
+321--320 ;
+322--321 ;
+323--320 ;
+324--320 ;
+324--323 ;
+325--324 ;
+326--325 ;
+327--324 ;
+327--326 ;
+328--327 ;
+329--327 ;
+329--328 ;
+330--329 ;
+331--315 ;
+331--317 ;
+331--329 ;
+331--330 ;
+332--315 ;
+332--331 ;
+333--315 ;
+334--315 ;
+335--327 ;
+335--329 ;
+335--333 ;
+335--334 ;
+336--335 ;
+337--327 ;
+337--336 ;
+338--335 ;
+339--335 ;
+339--338 ;
+340--338 ;
+340--339 ;
+341--335 ;
+341--340 ;
+342--340 ;
+342--341 ;
+343--340 ;
+344--343 ;
+345--338 ;
+345--344 ;
+346--345 ;
+347--345 ;
+348--252 ;
+348--267 ;
+349--267 ;
+350--262 ;
+350--349 ;
+351--303 ;
+352--247 ;
+353--310 ;
+353--311 ;
+354--353 ;
+355--354 ;
+356--354 ;
+358--356 ;
+358--357 ;
+359--358 ;
+360--359 ;
+361--358 ;
+362--361 ;
+363--362 ;
+364--357 ;
+364--358 ;
+365--355 ;
+365--356 ;
+365--360 ;
+365--364 ;
+366--364 ;
+367--277 ;
+367--365 ;
+368--366 ;
+368--367 ;
+369--365 ;
+370--368 ;
+370--369 ;
+371--370 ;
+372--368 ;
+372--371 ;
+373--372 ;
+374--373 ;
+375--374 ;
+376--375 ;
+377--376 ;
+378--376 ;
+379--378 ;
+380--378 ;
+381--380 ;
+382--381 ;
+383--361 ;
+383--370 ;
+383--379 ;
+384--370 ;
+384--382 ;
+385--376 ;
+385--380 ;
+385--384 ;
+386--368 ;
+387--372 ;
+389--387 ;
+389--388 ;
+390--386 ;
+390--387 ;
+390--388 ;
+391--383 ;
+391--390 ;
+392--390 ;
+393--390 ;
+393--392 ;
+394--393 ;
+395--393 ;
+395--394 ;
+396--387 ;
+397--396 ;
+398--397 ;
+399--398 ;
+400--399 ;
+401--399 ;
+402--395 ;
+402--398 ;
+402--400 ;
+402--401 ;
+403--402 ;
+404--402 ;
+405--404 ;
+406--405 ;
+407--402 ;
+407--406 ;
+408--407 ;
+409--407 ;
+409--408 ;
+410--403 ;
+410--409 ;
+411--404 ;
+411--409 ;
+412--407 ;
+412--408 ;
+412--409 ;
+413--412 ;
+414--412 ;
+414--413 ;
+415--413 ;
+415--414 ;
+416--412 ;
+417--307 ;
+417--414 ;
+417--416 ;
+418--391 ;
+418--417 ;
+419--402 ;
+419--415 ;
+419--418 ;
+420--415 ;
+420--419 ;
+421--418 ;
+422--400 ;
+422--402 ;
+422--421 ;
+423--377 ;
+423--422 ;
+424--423 ;
+425--377 ;
+425--424 ;
+426--424 ;
+427--423 ;
+428--422 ;
+428--423 ;
+428--427 ;
+430--422 ;
+430--428 ;
+430--429 ;
+431--430 ;
+432--431 ;
+433--430 ;
+433--432 ;
+434--421 ;
+434--433 ;
+435--430 ;
+436--435 ;
+437--436 ;
+438--436 ;
+438--437 ;
+439--438 ;
+440--439 ;
+441--438 ;
+442--438 ;
+442--441 ;
+443--442 ;
+444--443 ;
+445--442 ;
+445--444 ;
+446--445 ;
+447--445 ;
+447--446 ;
+448--447 ;
+449--433 ;
+449--435 ;
+449--447 ;
+449--448 ;
+450--433 ;
+450--449 ;
+451--433 ;
+452--433 ;
+453--445 ;
+453--447 ;
+453--451 ;
+453--452 ;
+454--453 ;
+455--445 ;
+455--454 ;
+456--453 ;
+457--453 ;
+457--456 ;
+458--456 ;
+458--457 ;
+459--453 ;
+459--458 ;
+460--458 ;
+460--459 ;
+461--458 ;
+462--461 ;
+463--456 ;
+463--462 ;
+464--463 ;
+465--463 ;
+466--370 ;
+466--385 ;
+467--385 ;
+468--380 ;
+468--467 ;
+469--421 ;
+470--365 ;
+471--428 ;
+471--429 ;
+}

@@ -1,0 +1,16 @@
+graph G {
+0 [label="0", color="red"]
+;
+1 [label="1", color="red"]
+;
+2 [label="2", color="red"]
+;
+3 [label="3", color="red"]
+;
+0--1  [color=purple, label="(0,1):123"]
+;
+0--2  [color=purple, label="(0,2):123"]
+;
+1--2  [color=purple, label="(1,2):123"]
+;
+}

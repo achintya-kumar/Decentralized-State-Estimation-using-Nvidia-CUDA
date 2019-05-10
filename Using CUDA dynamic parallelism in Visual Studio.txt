@@ -1,0 +1,15 @@
+Source: Orange Owl Solutions (http://www.orangeowlsolutions.com/archives/1965)
+
+
+Starting from CUDA 5.0, CUDA enables the use of dynamic parallelism for GPUs with compute capability 3.5 or higher. 
+
+Dynamic parallelism allows launching kernels directly from other kernels and enables further speedups in those applications 
+which can benefit of a better handling of the computing workloads at runtime directly on the GPU; in many cases, dynamic parallelism 
+avoids CPU/GPU interactions with benefits to mechanisms like recursion.
+
+To use dynamic parallelism in Visual Studio 2010 or Visual Studio 2013, do the following:
+
+1. View -> Property Pages
+2. Configuration Properties -> CUDA C/C++ -> Common -> Generate Relocatable Device Code -> Yes (-rdc=true)
+3. Configuration Properties -> CUDA C/C++ -> Device -> Code Generation -> compute_35,sm_35
+4. Configuration Properties -> Linker -> Input -> Additional Dependencies -> cudadevrt.lib

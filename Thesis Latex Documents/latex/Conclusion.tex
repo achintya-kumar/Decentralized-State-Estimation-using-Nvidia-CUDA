@@ -1,0 +1,21 @@
+\documentclass[thesis.tex]{subfiles}
+\begin{document}
+
+\chapter{Conclusion}\label{chap:concl}
+
+\section{Summary}
+The first objective of the thesis was the porting of a fast serial SE algorithm to a suitable GPGPU platform. This is achieved by implementing a data-parallel CUDA-equivalent of the serial algorithm. This implementation is capable of operating in two precision-modes. The performance and accuracy of the CUDA application is analyzed on two NVIDIA GPUs having different architectures and arithmetic throughputs. The analyses concluded with positive results for sizeable power grids both in terms of speedups as well as accuracy. The performance of the application is greatly dependent on the device memory allocation recycler which alleviates the need for frequent calls to expensive memory allocation and deallocation functions.
+\\\\
+In order to analyse the performance of decentralized SE against centralized SE, larger grids are produced through connected replication. These grids when subjected to decentralized SE lead to further speedups due to reduction in the order of the matrices involved. The issues often encountered include lack of or slow convergence of one of more of the sub-grids and arbitrarily large-merge errors introduced in global state computation after local SE of the sub-grids. The scope of the evaluation of decentralization is limited to those grid-datasets with low merge-errors, thereby making the accuracy assessment in the considered test cases unnecessary. 
+\\\\
+In conclusion, it is observed from the examined grid-datasets, decentralized SE on GPU through reduced computational burden offers a promising alternative to its centralized counterpart.
+
+\section{Future Work}
+\textbf{TBD}
+\begin{itemize}
+	\item More robust local-states-merger algorithm
+	\item Prepararation of a similar SE solution based on sparse-matrices.
+	\item When CUDA device runtime supports cuSOLVER, develop an SE solution exploiting Dynamic Parallelism.
+\end{itemize}
+\subfilebib % Makes bibliography available when compiling as subfile
+\end{document}

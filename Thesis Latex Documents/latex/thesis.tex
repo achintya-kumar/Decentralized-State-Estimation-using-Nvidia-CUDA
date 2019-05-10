@@ -1,0 +1,335 @@
+\documentclass[fontsize=12pt, paper=a4, headinclude, twoside=false, parskip=half+, pagesize=auto, numbers=noenddot, headsepline, footsepline, open=right, toc=listof, toc=bibliography]{scrreprt}
+\setcounter{secnumdepth}{5}
+% font encoding
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+% Style, math graphics
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage[labelfont=bf]{caption} % font=small,  ?
+\usepackage{acronym}
+\usepackage{amsmath}
+\usepackage{marvosym}
+\usepackage[pdftex]{graphicx}
+\usepackage[table,xcdraw]{xcolor} % table argument allows color cells
+\usepackage{luximono}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{multicol}
+% Landscape pages
+\usepackage{lscape}
+\usepackage[ruled]{algorithm2e}
+\usepackage{xfrac}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\let\oldcite\cite
+\pretocmd{\listoffigures}{\def\cite{\ignorespaces\@gobble}}{}{}
+\apptocmd{\listoffigures}{\let\cite\oldcite}{}{}
+\makeatother
+
+% Standard unity
+\usepackage[binary-units=true]{siunitx}
+
+% table stuff
+\usepackage{multirow}	% Multirow in tables
+\usepackage{booktabs}	% Special lines in tables
+\usepackage{diagbox}	% Box with diagonal in tables
+\usepackage{makecell}	% Multiline cells and more
+
+% Caption setup.
+\captionsetup{margin=0pt}
+\captionsetup{labelfont=bf}
+
+% Text floating around figure
+\usepackage{wrapfig}
+% Subfigures
+\usepackage{subcaption}
+
+% Easy use of list (alternative to itemize)
+\usepackage[sharp]{easylist}
+
+% Links/URLs in proper colors
+\usepackage[colorlinks,citecolor=blue,bookmarks=false,hypertexnames=true]{hyperref}
+\definecolor{dark-red}{rgb}{0.6,0.15,0.15}
+\definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
+\definecolor{medium-blue}{rgb}{0,0,0.6}
+\hypersetup{
+    colorlinks, linkcolor={dark-red},
+     urlcolor={medium-blue}
+}
+
+%\urlstyle{same}	% Use same font for urls as for everything else
+
+% Redfine some autoref macros for proper caseing.
+\renewcommand*{\chapterautorefname}{Chapter}
+\renewcommand*{\sectionautorefname}{Section}
+\renewcommand*{\subsectionautorefname}{Subsection}
+\renewcommand*{\subsubsectionautorefname}{Subsubsection}
+
+% Citeing
+\usepackage[numbers]{natbib}
+
+% Use subfiles instead of includes
+\usepackage{subfiles}
+
+\definecolor{darkgreen}{rgb}{0.1,0.7,0.2}
+\definecolor{backgray}{rgb}{0.8,0.8,0.8}
+
+% C/C++ programming languages
+%\lstloadlanguages{C,C++}
+
+% GLSL programming language
+\usepackage{listings}
+\usepackage{color}
+\definecolor{lightgray}{gray}{0.9}
+
+\lstset{
+	showstringspaces=false,
+	basicstyle=\ttfamily,
+	keywordstyle=\color{blue},
+	commentstyle=\color[grey]{0.6},
+	stringstyle=\color[RGB]{255,150,75}
+}
+
+\newcommand{\inlinecode}[2]{\colorbox{lightgray}{\lstinline[language=#1]$#2$}}
+
+
+
+\input{glsl.tex}
+
+% Formatting for datasets.
+\newcommand{\dataset}[1]{\textsc{#1}}
+
+% paper format
+\geometry{a4paper,left=30mm,right=20mm, top=2cm, bottom=3cm} 
+
+% todo note command
+\usepackage[disable]{todonotes} % DISABLED
+
+% Shorthand for including bibliography information to subfiles. This way each subfile will have access to the bibliography
+\def\subfilebib{\bibliographystyle{alphaurl}\bibliography{bibliography}}
+
+% Where all graphics to be found
+\graphicspath{ {../pictures/} }
+\DeclareGraphicsExtensions{.png,.jpg}
+
+% Easy insertion of pdf_tex
+\newcommand\includepdftex[1] { \input{../pictures/#1.pdf_tex} }
+% Image size for half page
+\newcommand{\halfpageimage}{0.496\textwidth}
+
+\begin{document}
+
+% Undef subfilebib for main file, so there is only one bibliography when compiling the whole thesis.
+\def\subfilebib{}
+
+\subfile{Title}
+\pagenumbering{roman}
+\subfile{Abstract}
+\subfile{Acknowledgements}
+\subfile{StatementOfAuthorship}
+\newpage\null\thispagestyle{empty}\newpage
+% TOC
+
+\renewcommand*\lstlistlistingname{List of Code Listings}
+\subfile{TOC}
+
+
+\clearpage
+\pagenumbering{arabic} 
+\setcounter{page}{1} % Ignore titel page in numbering.
+
+
+
+
+
+%\subfile{Notation}
+
+% The Thesis itself
+\subfile{Introduction}
+\subfile{Prerequisites}
+\subfile{RelatedWork}
+\subfile{Main}
+\subfile{Evaluation}
+\subfile{Conclusion}
+
+%\appendix
+%\chapter*{Appendices}
+%\addcontentsline{toc}{chapter}{Appendices}
+%\renewcommand{\thesection}{\Alph{section}.}
+%\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}}
+%\subfile{appendix-formulas}
+
+\bibliographystyle{alphaurl}
+\begin{thebibliography}{9}
+	
+	
+	\bibitem{deuterneu} 
+	Bundesministerium für Wirtschaft und Energie (BMWi), Berlin.
+	\\\textit{Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland}. 
+	Februar 2018
+	
+	
+	\bibitem{Liacco} 
+	T.E.Dy Liacco.
+	\textit{The Role of State Estimation in Power System Operation}. 
+	IFAC Proceedings Volumes, Volume 15, Issue 4, Pages 1531-1533, June 1982
+	
+	\bibitem{Schweppe} 
+	F. Schweppe, .J. Wildes, and D. Rom. 
+	\textit{Power system static state estimation: Parts I, II, and III}. 
+	Power Industry Computer Conference (PICA), Denver, Colorado June, 1969.
+	
+	\bibitem{Gaushell} 
+	Gaushell, D.J. and Darlington, H.T.  
+	\textit{Supervisory Control and Data Acquisitions}. 
+	IEEE Transaction on Control Systems, Vol.75, No.12, Pages 1645-1658
+	
+	\bibitem{Wilson} 
+	Wilson, R.E.  
+	\textit{PMUs [Phasor Measurements Units]}. 
+	IEEE Potentials Transaction on Power System, vol.13, no.2, pp.26-28, 1994.
+	
+	\bibitem{Wollenberg} 
+	Bruce F. Wollenberg  
+	\textit{Power System Operation and Control}. 
+	The Electric Power Engineering Handbook, Ed. L.L. Grigsby, Boca Raton: CRC Press LLC, 2001
+	
+	
+	\bibitem{Chen} 
+	Y Chen, M Rice, K Glaesemann, S Wang, Z Huang   
+	\textit{Sub-second Parallel State Estimation }. 
+	Pacific Northwest National Laboratory, Richland, Washington, Oct 2014
+	
+	\bibitem{cpuStag} 
+	Intel Developer Zone (Accessed on 1.10.2018)
+	\\\textit{https://software.intel.com/en-us/blogs/2014/02/19/why-has-cpu-frequency-ceased-to-grow}
+	
+	
+	\bibitem{Abur} 
+	A.Abur, P.Tapadiya  
+	\textit{Parallel state estimation using multiprocessors}. 
+	Electric Power Systems Research, Volume 18, Issue 1, Pages 67-73, Jan 1990
+	
+	
+	\bibitem{Carvalho} 
+	J.B. Carvalho, F.M. Barbosa 
+	\textit{Parallel and Distributed Processing in State Estimation of Power System Energy}
+	9th Mediterranean Electrotechnical Conference. Proceedings, Tel-Aviv, Israel, pp. 969-973 vol.2., 1998
+	
+	
+	
+	\bibitem{IEEE754} 
+	\textit{IEEE Standard for Floating-Point Arithmetic}. 
+	IEEE Std 754-2008 , vol., no., pp.1-70, 29 Aug. 2008
+	
+	\bibitem{ElsevierCUDA} 
+	Shane Cook  
+	\textit{CUDA Programming: A Developer’s Guide to Parallel Computing with GPUs}. 
+	Elsevier Inc., 2013
+	
+	
+	\bibitem{profCUDA} 
+	J. Cheng, M. Grossman, T. McKercher
+	\textit{Professional CUDA C Programming}. 
+	John Wiley \& Sons, Inc., 2014
+	
+
+	\bibitem{Harris} 
+	M. J. Harris, W. V. Baxter III, T. Scheuermann, A. Lastra
+	\textit{Simulation of Cloud Dynamics on Graphics Hardware}. 
+	Proceedings of the IGGRAPH/Eurographics Workshop on Graphics Hardware, 2003
+	
+	
+	\bibitem{KarimipourAcc} 
+	H. Karimipour and V. Dinavahi. 
+	\textit{Accelerated parallel WLS state estimation for large-scale power systems on GPU}. 
+	North American Power Symposium (NAPS), Manhattan, KS, 2013.
+	
+	\bibitem{Xiong} 
+	Leilei Xiong and Santiago Grijalva.
+	\textit{Fast Decomposition-Based State Estimation Using Automatic Graph Partitioning and ADMM}. 
+	IEEE Power and Energy Society General Meeting (PESGM), Boston, MA, 2016.
+	
+	\bibitem{Muscas} 
+	C. Muscas, P. A. Pegoraro, S. Sulis, M. Pau, F. Ponci and A. Monti.
+	\textit{Fast Multi-area Approach for Distribution System State Estimation}. 
+	IEEE International Instrumentation and Measurement Technology Conference Proceedings, Taipei, 2016.
+	
+	
+	\bibitem{KarimipourDec} 
+	H. Karimipour and V. Dinavahi.
+	\textit{Parallel Domain Decomposition Based Distributed State Estimation for Large-scale Power Systems}. 
+	IEEE/IAS 51st Industrial \& Commercial Power Systems Technical Conference (I\&CPS), Calgary, AB, 2015
+	
+
+	\bibitem{Falcao} 
+	D.M. Falcao, F. F. Wu, L. Murphy
+	\textit{Parallel and Distributed State Estimation}. 
+	IEEE Transactions on Power Systems, Vol. 10, No. 2, May 1995 
+	
+	\bibitem{Huang} 
+	Z. Huang, Y. Chen, D. Chavarria-Miranda.
+	\textit{High-Performance Computing for Real-Time Grid Analysis and Operation}. 
+	Power Systems, vol. 76, 2013, pp. 151-188.
+	
+	\bibitem{Gomez} 
+	C. Gomez-Quiles, A. De La Villa Jaén, A. Gómez-Expósito.
+	\textit{A factorized approach to WLS state estimation}. 
+	IEEE Trans. On Power Systems, vol. 26, 2011, pp. 1724-1732.
+	
+	
+	\bibitem{Richter} 
+	M. Richter, B. Arendarski, P. Komarnicki
+	\textit{A Fast State Estimator for Power Systems with Phasor Measurement Units Based on Terminal Modeling}. 
+	2017 \textbf{(unpublished)}
+	
+	\bibitem{kernelOverhead} 
+	CUDA Kernel Overhead (Accessed on 1.10.2018)
+	\\\textit{https://www.cs.virginia.edu/~mwb7w/cuda\_support/kernel\_overhead.html}
+	
+	
+	\bibitem{allocationOverhead} 
+	CUDA Memmory Allocation Overhead (Accessed on 1.10.2018)
+	\\\textit{https://www.cs.virginia.edu/~mwb7w/cuda\_support/memory\_management\_overhead.html}
+	
+	
+	\bibitem{Luley} 
+	R. S. Luley and Q. Qiu
+	\\\textit{Effective Utilization of CUDA Hyper-Q for Improved Power and Performance Efficiency}.
+	IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), Chicago, IL, 2016, pp. 1160-1169.
+	
+	\bibitem{Richter2} 
+	M. Richter, P. Komarnicki, I. Hauer
+	\\\textit{Improving state estimation in smart distribution grid
+	using synchrophasor technology: a comparison study}.
+	Archives of Electrical Engineering, Vol. 67(3), pp. 469–483 (2018)
+	
+	\bibitem{Richter3}
+	M. Richter, 2016, Doctoral thesis
+	\\\textit{PMU-basierte Zustandsabschätzung in Smart Distribution}.
+	Der Fakultät Elektrotechnik und Informationstechnik, Otto-von-Guericke-Universität Magdeburg.
+	
+	\bibitem{cuda} 
+	NVIDIA CUDA (Accessed on 1.10.2018)
+	\\\textit{https://developer.nvidia.com/cuda-zone}
+	
+	
+	\bibitem{cuBLAS} 
+	NVIDIA cuBLAS (Accessed on 1.10.2018)
+	\\\textit{https://docs.nvidia.com/cuda/cublas/index.html}
+	
+	
+\end{thebibliography}
+%\bibliography{bibliography}
+
+
+
+% List of figures. Quite useless I think atm, but maybe I'll come back to it. Note that currently there are no short captions - it is possible to define both short and long captions.
+%\listoffigures
+
+\end{document}

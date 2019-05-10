@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DeviceMatrix.cpp">
+      <Filter>Device Matrix Container</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Memory Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMemoryManager.cpp">
+      <Filter>Memory Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="StateEstimationCUDA.cpp">
+      <Filter>State Estimation in CUDA</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CudaFunctions_Base.cpp">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaFunctions_Double.cpp">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaFunctions_Single.cpp">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClCompile>
+    <ClCompile Include="Splitter.cpp">
+      <Filter>Grid Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="Merger.cpp">
+      <Filter>State Merger</Filter>
+    </ClCompile>
+    <ClCompile Include="Error_Analyzer.cpp">
+      <Filter>Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="DataImporter.cpp">
+      <Filter>Grid Model Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaLibraryHandles.cpp">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClCompile>
+    <ClCompile Include="DotGenerator.cpp">
+      <Filter>Grid Model Visual Generator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeviceMatrix.h">
+      <Filter>Device Matrix Container</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMemoryManager.h">
+      <Filter>Memory Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="StateEstimationCUDA.h">
+      <Filter>State Estimation in CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Memory Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="user_defined_kernels_fp64.h">
+      <Filter>CUDA Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="user_defined_kernels_fp32.h">
+      <Filter>CUDA Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaFunctions_Base.h">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaFunctions_Double.h">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaFunctions_Single.h">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClInclude>
+    <ClInclude Include="Splitter.h">
+      <Filter>Grid Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="Merger.h">
+      <Filter>State Merger</Filter>
+    </ClInclude>
+    <ClInclude Include="Error_Analyzer.h">
+      <Filter>Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="DataImporter.h">
+      <Filter>Grid Model Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaLibraryHandles.h">
+      <Filter>CUDA Functions Manager v2</Filter>
+    </ClInclude>
+    <ClInclude Include="DotGenerator.h">
+      <Filter>Grid Model Visual Generator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CUDA Kernels">
+      <UniqueIdentifier>{7644e56b-4362-4f51-9290-aed89ce749a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Estimation in CUDA">
+      <UniqueIdentifier>{22327b1e-971f-46df-8715-493d3da90411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager">
+      <UniqueIdentifier>{39868108-86e1-4a8f-b3d9-7a8271c20580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device Matrix Container">
+      <UniqueIdentifier>{02a35e4b-cad2-4d95-9296-71fb22851492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Functions Manager v2">
+      <UniqueIdentifier>{ececacda-4e22-44a4-9fae-6a3dff3a650f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid Splitter">
+      <UniqueIdentifier>{e4271682-2cea-41fe-8756-6676707f3c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Merger">
+      <UniqueIdentifier>{f76fa607-2d0c-4b26-8d0b-44aa9d7678a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analyzer">
+      <UniqueIdentifier>{4c398ae8-ba28-48d7-8686-df44f64e3682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid Model Importer">
+      <UniqueIdentifier>{d6896b7c-e8a8-4ae8-a78a-05a32e387593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid Model Visual Generator">
+      <UniqueIdentifier>{11eb9688-8528-48dd-858e-07c51ef17fc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="user_defined_kernels_fp32.cu">
+      <Filter>CUDA Kernels</Filter>
+    </CudaCompile>
+    <CudaCompile Include="user_defined_kernels_fp64.cu">
+      <Filter>CUDA Kernels</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="application.grid.properties" />
+  </ItemGroup>
+</Project>
